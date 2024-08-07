@@ -101,6 +101,32 @@ git push origin main
 
 ## Getting started
 
+Open `src/App.jsx` and replace its contents with the following:
+
+```jsx
+// src/App.jsx
+import { useState } from 'react';
+
+const initialState = [
+  { _id: 1, name: 'bulbasaur', weight: 69, height: 7 },
+  { _id: 2, name: 'ivysaur', weight: 130, height: 10 },
+  { _id: 3, name: 'venusaur', weight: 1000, height: 20 },
+  { _id: 4, name: 'charmander', weight: 85, height: 6 },
+  { _id: 5, name: 'charmeleon', weight: 190, height: 11 },
+];
+
+const App = () => {
+  const [pokemon, setPokemon] = useState(initialState);
+  return (
+    <>
+      <h1>Pokemon!</h1>
+    </>
+  );
+};
+
+export default App;
+```
+
 Since this lesson is going to involve switching between components, let's keep things organized by creating a `components` folder at the root level of the `src` directory:
 
 ```bash
@@ -113,8 +139,15 @@ Create a new component called `PokemonList`:
 ```bash
 touch components/PokemonList.jsx
 ```
+## ✨ </> Coding Tasks ✨
+- Create a PokemonList component with an **h2** of **'Pokemon'**
+- Import it and render on App.jsx (_check browser for render_)
+- Pass pokemon={pokemon} as props
+- Add a **ul** to PokemonList
+- Map through the pokemon prop
 
-Add the following starter code to `src/components/PokemonList.jsx`:
+
+Final starter code for `src/components/PokemonList.jsx`:
 
 ```jsx
 const PokemonList = (props) => {
@@ -133,7 +166,7 @@ const PokemonList = (props) => {
 export default PokemonList;
 ```
 
-Open `src/App.jsx` and replace its contents with the following:
+Final starter code for `App.jsx`
 
 ```jsx
 // src/App.jsx
