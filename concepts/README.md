@@ -9,6 +9,9 @@ While single-page applications (SPAs) offer several improvements over traditiona
 Here are some examples:
 
 - In SPAs, the entire application operates under a single URL. This means you cannot directly bookmark internal pages or states of the application. You can bookmark the main page, but navigating back to a specific internal state would require additional steps each time.
+
+✨ **Comment out the `<PokemonList />` component and ask students how would they access a component that is not currently being rendered - is there a URL I can type in my browser to access it?** ✨
+
 - Similarly, sharing specific parts of the application with others can be challenging because the entire SPA resides under one URL. To direct someone to a particular section, you would need to provide instructions on navigating there from the main page.
 - Traditional anchor tags `<a>` are ineffective for navigating between different sections within the SPA, as all navigation would need to handle changing states rather than switching pages.
 

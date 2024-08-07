@@ -64,6 +64,10 @@ const App = () => {
 export default App;
 ```
 
+### Clear `index.css`
+
+Open the `index.css` file in the `src` directory and delete the contents.
+
 ### Running the development server
 
 To start the development server and view our app in the browser, we'll use the following command: 
@@ -142,7 +146,7 @@ touch components/PokemonList.jsx
 ## ✨ </> Coding Tasks ✨
 - Create a PokemonList component with an **h2** of **'Pokemon'**
 - Import it and render on App.jsx (_check browser for render_)
-- Pass pokemon={pokemon} as props
+- Pass pokemon={pokemon} as props (_check react dev tools for props_)
 - Add a **ul** to PokemonList
 - Map through the pokemon prop
 

@@ -111,9 +111,15 @@ In short, this new `<Route>` tells React Router to render `<PokemonDetails />` f
 
 > 💡 Notice how we are we passing the `pokemon` array to `<PokemonDetails />`. In the next section, we'll use this array combined with our `pokemonId` route parameter to locate and render a specific pokemon in the array.
 
+
+
 ## Accessing dynamic parameters with `useParams()`
 
 With the route in place, you should now be able to navigate to the details page.
+
+✨ **Click on a pokemon to view the details page, then check the react dev tools to verify our props exist on the component** ✨ 
+
+✨ **Why are we not yet able to see the details of our pokemon?** ✨ 
 
 Notice the `_id` value stored in the URL bar of the details page. We'll need this value to find a specific pokemon object in the `props.pokemon` array. To do so, we'll make use of React Router's `useParams()` hook.
 

@@ -12,12 +12,16 @@ Begin by installing the [`react-router-dom`](https://www.npmjs.com/package/react
 npm i react-router-dom
 ```
 
+✨ Check the package.json file for the new react-router-dom dependency ✨ 
+
 ### Setting up React Router
 
 With `react-router-dom` installed, the next step is to set it up in our project. 
 
-We'll start by importing `BrowserRouter` in our entry file, typically `src/main.jsx`. `BrowserRouter` is a component in React Router that enables navigation. It allows your app to update the URL and display different pages without reloading the whole page. 
+`BrowserRouter` is a component in React Router that enables navigation. It allows your app to update the URL and display different pages without reloading the whole page. 
 
+
+We'll start by importing `BrowserRouter` in our entry file, typically `src/main.jsx`. 
 Add the following to `src/main.jsx`:
 
 ```jsx
