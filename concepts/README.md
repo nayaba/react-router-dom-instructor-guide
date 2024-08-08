@@ -12,6 +12,13 @@ Here are some examples:
 
 ✨ **Comment out the `<PokemonList />` component and ask students how would they access a component that is not currently being rendered - is there a URL I can type in my browser to access it?** ✨
 
+>✨ **AIRBNB** ✨
+>- **We have a nav bar - how can we use it to render different components?**
+>- **Could use state?**
+>- **If we use state, how would the user be able to bookmark anything or send a link?** 
+>- **React Router is the answer - show AirBnB uses it in dev tools**
+
+
 - Similarly, sharing specific parts of the application with others can be challenging because the entire SPA resides under one URL. To direct someone to a particular section, you would need to provide instructions on navigating there from the main page.
 - Traditional anchor tags `<a>` are ineffective for navigating between different sections within the SPA, as all navigation would need to handle changing states rather than switching pages.
 
